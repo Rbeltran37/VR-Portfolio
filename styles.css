@@ -1,0 +1,474 @@
+:root {
+    --main-bg-color: 50%;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3vw; /* Adjust the font size as needed */
+    color: black;
+    font-family: 'nimbus-sans-novus-d-ot-heavy', sans-serif;
+    position: absolute;
+    top: 1.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+
+h2 {
+    font-size: 40px; /* Adjust the font size as needed */
+    margin-top: 0px; /* Add margin to vertically center the text */
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-top: 40px; /* Add margin to vertically center the text */
+    text-align: center;
+    color: black;
+}
+
+.centered-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: -2;
+}
+
+#unityLogo {
+    position: absolute;
+    top: 5%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    height: 4vw;
+}
+
+#game-0 {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: -50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+#game-1 {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: -25%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 1s;
+  }
+
+  #game-2 {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 1s;
+  }
+
+  #game-3 {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 1s;
+  }
+
+  #game-4 {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 1s;
+    cursor: pointer;
+  }
+
+  #game-5 {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 1s;
+  }
+  
+  #game-6 {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 1s;
+  }
+  
+  #game-7{
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: 125%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 1s;
+  }
+  
+  #game-8 {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: 150%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+ 
+  #game-2-moved {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: -25%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 1s;
+  }
+  
+  #game-3-moved {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 1s;
+  }
+  
+  #game-5-moved {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 1s;
+  }
+  
+  #game-6-moved {
+    width: 18%;
+    height: 46%;
+    position: absolute;
+    top: 35%;
+    left: 125%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 1s;
+  }
+
+  #cover-picture {
+    width: 40vw;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .table {
+    width: 55%;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+  }
+  
+  .monitor {
+    width: 13%;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  .quest-headset {
+    width: 10%;
+    position: absolute;
+    top: 79%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+  }
+
+  .guy-playing-quest {
+    width: 40%;
+    position: absolute;
+    top: 87%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: -6;
+  }
+
+  .quest-accessory {
+    width: 10%;
+    position: absolute;
+    top: 79%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  .cover-picture-container {
+    width: 40vw;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #active-screenshot {
+    width: 12.2%;
+    height: 15%;
+    position: absolute;
+    top: 72.8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    z-index: -2;
+  }
+  
+  .description {
+    position: absolute;
+    font-size: .8vw;
+    left: 2%;
+    top: 30%;
+    width: 24%;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    line-height: 140%;
+    font-family: 'Roboto';
+  }
+
+  #description-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 150%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    z-index: 2;
+  }
+
+  .feature-list {
+    position: absolute;
+    font-size: .8vw;
+    top: 10%;
+    left: 5%;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    line-height: 125%;
+    font-family: 'Roboto';
+  }
+
+  .chair {
+    width: 10%;
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #features-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    z-index: 2;
+  }
+
+  .makeTextAppear {
+    animation: makeTextAppear 2s linear;
+  }
+  
+  @keyframes makeTextAppear {
+    0% {opacity: 0;}
+    30% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  .makeRightGameBlockBlackAppear {
+    animation: rightGameBlockBlack 1s forwards;
+  }
+
+  .makeRightGameBlockBlackAppearReverse {
+    animation: rightGameBlockBlackReverse 1s;
+  }
+
+  @keyframes rightGameBlockBlack {
+    0% {left: -50%;}
+    100% {left: 50%;}
+  }
+
+  @keyframes rightGameBlockBlackReverse {
+    0% {left: 50%;}
+    100% {left: -50%;}
+  }
+
+  .makeDescriptionAppear {
+    animation: makeDescriptionAppearAnim 1s forwards;
+  }
+
+  .makeDescriptionDisappear {
+    animation: makeDescriptionDisappearAnim 1s;
+  }
+
+  @keyframes makeDescriptionAppearAnim {
+    0% {left: 150%;}
+    100% {left: 50%;}
+  }
+
+  @keyframes makeDescriptionDisappearAnim {
+    0% {left: 50%;}
+    100% {left: 150%;}
+  }
+
+  .void-text {
+    color: #e580ff;
+    position: absolute;
+    font-size: .8vw;
+    top: 5%;
+    left: 5%;
+  }
+
+  .Description-function-text {
+    color: orange;
+    font-size: .8vw;
+  }
+
+  .white-description-text {
+    color: white;
+    font-size: .8vw;
+  }
+
+  .project-description {
+    color: lightgreen;
+    font-size: .8vw;
+    margin-left: 10%;
+    margin-right: 5%;
+    line-height: 150%;
+  }
+
+  .project-features {
+    color: lightgreen;
+    font-size: .8vw;
+    margin-left: 14%;
+    margin-right: 5%;
+    line-height: 150%;
+  }
+
+  .void-text-2 {
+    color: #e580ff;
+    font-size: .8vw;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: inline-block;
+  }
+
+  .features-function-text {
+    color: orange;
+    font-size: .8vw;
+    display: inline-block;
+  }
+
+  .brace-description-text {
+    color: white;
+    font-size: .8vw;
+    margin-left: 5%;
+  }
+
+  .video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    visibility: hidden;
+    z-index: 3;
+  }
+
+  .close-button:hover {
+    background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+    background-color:#ce0100;
+  }
+
+  #close-button {
+    box-shadow:inset 0px 1px 0px 0px #f29c93;
+    background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+    background-color:#fe1a00;
+    border-radius:6px;
+    border:1px solid #d83526;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:1vw;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #b23e35;
+    position: absolute;
+    top: 13.9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: 1s;
+    visibility: hidden;
+  }
